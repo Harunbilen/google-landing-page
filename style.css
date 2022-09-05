@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+}
+body {
+  height: 100vh;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 36px;
+}
+
+.header__left {
+  /* float: left; */
+}
+
+.header__right {
+  /* float: right; */
+}
+header div ul li {
+  display: inline-block;
+}
+
+header a {
+  color: black;
+  padding: 0.5rem;
+  opacity: 0.8;
+}
+.i {
+  vertical-align: middle;
+}
+.i:hover {
+  opacity: 0.8;
+}
+
+header button {
+  background-color: #7f98c0;
+  border: none;
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+header button:hover {
+  box-shadow: rgb(178, 212, 212) 2px 4px 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*! ******************************MAİN*********************** */
+
+main {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main__search-bar {
+  width: 460px;
+  height: 39px;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.input {
+  width: 380px;
+  font-size: 14px;
+  padding: 2px;
+  height: 24px;
+  border: none;
+  outline: none;
+}
+.b1,
+.b2 {
+  width: 140px;
+  border: none;
+  margin: 20px 10px;
+  padding: 0 16px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.b1:hover,
+.b2:hover {
+  box-shadow: 2px 2px rgb(215, 193, 193);
+  cursor: pointer;
+}
+
+/*! **************************FOOTER********************** */
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #dadce0;
+}
+
+footer div ul li {
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.country {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid gray;
+  opacity: 0.7;
+  height: 3rem;
+  vertical-align: middle;
+}
+.bottom1 {
+  float: left;
+  margin: 1rem 1rem;
+}
+.bottom2 {
+  float: right;
+  margin: 1rem 1rem;
+}
+div p {
+  margin-top: 1rem;
+  margin-left: 1.1rem;
+}
